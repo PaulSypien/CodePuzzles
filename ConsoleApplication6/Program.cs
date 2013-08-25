@@ -10,7 +10,8 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            FizzBuzz.Run();
+            Practice.FizzBuzz.Run();
+            int a = Practice.Mulitples.Run();
             System.Console.ReadLine();
         }
     }
