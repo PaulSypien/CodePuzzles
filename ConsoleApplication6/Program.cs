@@ -10,8 +10,10 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            Practice.FizzBuzz.Run();
-            int a = Practice.Mulitples.Run();
+            Practice.FizzBuzz.Run();        //Classic FizzBuzz
+            int a = Mulitples.Run();        //Project Euler # 1: Sum of all Multiples of 3 and 5 below 1000
+            int b = Fib.Run();              //Project Euler # 2: Sum of even numbers in Fibonacci sequence below 4000000
+            int f = SumSquare.Run();
             System.Console.ReadLine();
         }
     }
