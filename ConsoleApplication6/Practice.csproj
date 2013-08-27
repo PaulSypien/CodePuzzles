@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Palindrome.cs" />
+    <Compile Include="LargestPrimeFactor.cs" />
     <Compile Include="SumSquare.cs" />
     <Compile Include="Fib.cs" />
     <Compile Include="Mulitples.cs" />

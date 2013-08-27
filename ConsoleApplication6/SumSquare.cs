@@ -25,15 +25,12 @@ namespace Practice
         {          
             double squareSum = 0;
             double sum = 0;
-            double q = 0;
             for (double x = 1; x <= 100 ; x++)
             {
                 squareSum += Math.Pow(x,2);
                 sum = sum + x;
             }
-            
-            q = Math.Pow(sum,2);                      
-            double Finish = q - squareSum;
+            double Finish = ((Math.Pow(sum, 2)) - squareSum);
             
             Console.WriteLine(Finish);
             return Finish;
